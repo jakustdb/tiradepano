@@ -1,0 +1,185 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.20
+* STEP-1 START @ 09:25:03
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.6.30 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30
+DOC ROOT:	C:/xampp/htdocs/tiradepano
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/tiradepano/installer.php
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20170826_tiradepano_b4c07e543cbdf57c6420170826211123_archive.zip
+SIZE:	31.02MB
+ZIP:	Enabled (ZipArchive Support)
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.170826212503.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 09:25:04 - RUNTIME: 0.1273 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 09:27:01
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.21 -- Build Server: 5.6.32
+FILE SIZE:	database.sql (815.76KB) - installer-data.sql (815.76KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/tiradepano/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	26
+QUERIES RAN:	1290
+
+wp_commentmeta: (0)
+wp_comments: (6)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (395)
+wp_postmeta: (591)
+wp_posts: (101)
+wp_term_relationships: (33)
+wp_term_taxonomy: (18)
+wp_termmeta: (6)
+wp_terms: (18)
+wp_usermeta: (58)
+wp_users: (2)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (22)
+wp_woocommerce_order_items: (3)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (3)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+
+Removed '112' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 1.7852 sec.
+STEP-2 COMPLETE @ 09:27:03 - RUNTIME: 2.4055 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 09:27:14
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (6)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (281)
+wp_postmeta~ (591)
+wp_posts~ (101)
+wp_term_relationships~ (33)
+wp_term_taxonomy~ (18)
+wp_termmeta~ (6)
+wp_terms~ (18)
+wp_usermeta~ (58)
+wp_users~ (2)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies^ (0)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta~ (22)
+wp_woocommerce_order_items~ (3)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (1)
+wp_woocommerce_shipping_zone_locations~ (1)
+wp_woocommerce_shipping_zone_methods~ (3)
+wp_woocommerce_shipping_zones~ (1)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+--------------------------------------
+Search1:	'/home/ideia257/public_html' 
+Change1:	'C:/xampp/htdocs/tiradepano' 
+Search2:	'\/home\/ideia257\/public_html' 
+Change2:	'C:\/xampp\/htdocs\/tiradepano' 
+Search3:	'%2Fhome%2Fideia257%2Fpublic_html%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Ftiradepano%2F' 
+Search4:	'\home\ideia257\public_html' 
+Change4:	'C:/xampp/htdocs/tiradepano' 
+Search5:	'http://tiradepano.com.br' 
+Change5:	'http://localhost/tiradepano' 
+Search6:	'http:\/\/tiradepano.com.br' 
+Change6:	'http:\/\/localhost\/tiradepano' 
+Search7:	'http%3A%2F%2Ftiradepano.com.br' 
+Change7:	'http%3A%2F%2Flocalhost%2Ftiradepano' 
+Search8:	'https://tiradepano.com.br' 
+Change8:	'https://localhost/tiradepano' 
+Search9:	'https:\/\/tiradepano.com.br' 
+Change9:	'https:\/\/localhost\/tiradepano' 
+Search10:	'https%3A%2F%2Ftiradepano.com.br' 
+Change10:	'https%3A%2F%2Flocalhost%2Ftiradepano' 
+Search11:	'//tiradepano.com.br' 
+Change11:	'//localhost/tiradepano' 
+Search12:	'\/\/tiradepano.com.br' 
+Change12:	'\/\/localhost\/tiradepano' 
+Search13:	'%2F%2Ftiradepano.com.br' 
+Change13:	'%2F%2Flocalhost%2Ftiradepano' 
+SCANNED:	Tables:27 	|	 Rows:1145 	|	 Cells:6582 
+UPDATED:	Tables:1 	|	 Rows:109 	|	 Cells:138 
+ERRORS:		0 
+RUNTIME:	0.620000 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 09:27:15 - RUNTIME: 0.7305 sec.
+
+

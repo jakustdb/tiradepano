@@ -1,0 +1,125 @@
+08-19-2017 @ 02:04:30 - Requesting token for order 74 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[WC-74]]></reference>
+  <sender>
+    <email><![CDATA[jakustdb@gmail.com]]></email>
+    <name><![CDATA[jackson costa]]></name>
+    <phone>
+      <areaCode>61</areaCode>
+      <number>92329159</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Qd 102 Conj 12 Casa 30]]></street>
+      <complement><![CDATA[30]]></complement>
+      <postalCode>71692104</postalCode>
+      <city><![CDATA[Brasília]]></city>
+      <state>DF</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.10</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Cap]]></description>
+      <amount>16.00</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Beanie]]></description>
+      <amount>18.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://tiradepano.com.br/index.php/finalizar-compra/order-received/74?key=wc_order_59979cae9d4e2]]></redirectURL>
+  <notificationURL><![CDATA[http://tiradepano.com.br/index.php/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+08-19-2017 @ 02:04:32 - PagSeguro Payment Token created with success! The Token is: 0FD77488B1B17FA224239F9CC461B043
+08-19-2017 @ 02:06:16 - Checking IPN request...
+08-19-2017 @ 02:06:17 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-08-18T23:04:32.000-03:00
+    [code] => F520E8B9-8BB7-47D6-80FA-8C58547EF400
+    [reference] => WC-74
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2017-08-18T23:06:13.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=d63139ea11a7c53406a9aaea2c0e62eb31d728d306630b6a8bdf2c61915e679238000d7fd0056e24
+    [grossAmount] => 50.10
+    [discountAmount] => 0.00
+    [feeAmount] => 1.85
+    [netAmount] => 48.25
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Cap
+                            [quantity] => 1
+                            [amount] => 16.00
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Beanie
+                            [quantity] => 1
+                            [amount] => 18.00
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => tira de pano
+            [email] => tiradepanoinfantil@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 61
+                    [number] => 92329159
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => QUADRA QUADRA 102 CONJUNTO 2
+                    [number] => 30
+                    [complement] => 30
+                    [district] => Setor Residencial Oeste São Sebastião
+                    [city] => BRASILIA
+                    [state] => DF
+                    [country] => BRA
+                    [postalCode] => 71692104
+                )
+
+            [type] => 3
+            [cost] => 16.10
+        )
+
+)
+
+08-19-2017 @ 02:06:17 - PagSeguro payment status for order 74 is: 1
